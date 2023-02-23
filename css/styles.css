@@ -74,6 +74,7 @@ button {
   color:var(--secondary-main-color);
   cursor: pointer;
   background-color: var(--secondary-blue-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .hero-btn-studio:hover,
 .hero-btn-studio:focus {
@@ -83,8 +84,8 @@ button {
 .hero-btn-main:focus {
   background: var(--btn-link-color);
 }
-.hero-card-content:hover,
-.hero-card-focus:focus {
+.hero-card:hover,
+.hero-card:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .creators-icons-link:hover, 
@@ -226,7 +227,9 @@ button {
   padding: 12px 24px;
   background-color: var(--secondary-main-color);
   color: var(--secondary-blue-color);
-  border: 1px solid var(--page-footer-color)
+  border: 1px solid var(--page-footer-color);
+  
+border-radius: 4px;
  
   
 }
@@ -489,7 +492,7 @@ color: var(--main-title-color)
   align-items: center;
   border: 1px solid #8E8F99;
   border-radius: 4px;
-  padding: 16px 32px 16px 32px;
+ 
   color: #8e8f99;
 }
 .test-link:hover,
